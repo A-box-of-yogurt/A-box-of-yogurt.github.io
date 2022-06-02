@@ -11,13 +11,28 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-  <title>Hexo</title>
+  <title>Welcome to A_box_of_yogurt&#39;s blog</title>
 
   <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/favicon.ico">
   <link rel="stylesheet" href="https://at.alicdn.com/t/font_1911880_c1nvbyezg17.css">
   <link href="https://unpkg.com/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link href="/js/swiper/swiper@5.4.1.min.css" rel="stylesheet">
   
+  
+    <script>
+        var themeModelId = '0';
+        if (themeModelId) {
+            localStorage.setItem('modelId', themeModelId);
+        }
+    </script>
+    
+    <script src="https://cdn.jsdelivr.net/gh/yuang01/live2d-widget@latest/autoload.js"></script>
+    <script>
+        var live2dOpen = eval('true') || false;
+        if (!live2dOpen) {
+            localStorage.setItem('waifu-display', 1609323474481);
+        }
+    </script>
   
   
   
@@ -66,7 +81,119 @@
         
     
 
-<meta name="generator" content="Hexo 5.4.2"></head>
+<meta name="generator" content="Hexo 5.4.2"><style>mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+.MathJax path {
+  stroke-width: 3;
+}
+
+mjx-container[display="true"] {
+  overflow: auto hidden;
+}
+
+mjx-container[display="true"] + br {
+  display: none;
+}
+</style></head>
 
   
   <!-- 依赖于jquery和vue -->
@@ -215,8 +342,8 @@
   <div class="drawer-box" :class="{'active': visible}">
     <div class="drawer-box-head bg-color">
       <img class="drawer-box-head_logo lazyload placeholder" src="/medias/logo.png" class="lazyload placeholder" data-srcset="/medias/logo.png" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="logo">
-      <h3 class="drawer-box-head_title">Hexo</h3>
-      <h5 class="drawer-box-head_desc"></h5>
+      <h3 class="drawer-box-head_title">Welcome to A_box_of_yogurt&#39;s blog</h3>
+      <h5 class="drawer-box-head_desc">A_box_of_yogurt&#39;s blog</h5>
     </div>
     
     <div class="drawer-box-content">
@@ -263,6 +390,15 @@
                     <i class="fas fa-user" aria-hidden="true"></i>
                   
                   <span class="name">关于</span>
+                </a>
+              
+            </li>
+          
+            <li class="drawer-box-content_item" style="position: relative;">
+              
+                <a href="/friends" class="drawer-menu-item-link">
+                  
+                  <span class="name">友情链接</span>
                 </a>
               
             </li>
@@ -333,7 +469,7 @@
           <img src="/medias/logo.png" class="lazyload placeholder" data-srcset="/medias/logo.png" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="logo">
         </div>
       
-      <a href="/" class="logo">Hexo</a>
+      <a href="/" class="logo">Welcome to A_box_of_yogurt&#39;s blog</a>
     </div>
     <nav class="navbar">
       <ul class="menu">
@@ -379,6 +515,15 @@
                     <i class="fas fa-user" aria-hidden="true"></i>
                   
                   <span class="name">关于</span>
+                </a>
+              
+            </li>
+          
+            <li class="menu-item" style="position: relative;">
+              
+                <a href="/friends" class="menu-item-link" title="友情链接">
+                  
+                  <span class="name">友情链接</span>
                 </a>
               
             </li>
@@ -528,17 +673,17 @@
               </div>
               <div class="flag-text">
                 <div class="flag-text-content">
-                  <div class="title ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s">青墨书晚风</div>
+                  <div class="title ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.3s" swiper-animate-delay="0.1s">青墨书晚风</div>
                   
-                      <div class="excerpt ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"></div>
+                      <div class="excerpt ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.3s" swiper-animate-delay="0.1s"></div>
                     
                 </div>
                 <div style="display: flex;" class="flag-text-btns">
                   
-                    <div class="ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"><a target="_blank" rel="noopener" href="https://yuang01.gitee.io/2021/02/08/hexo-theme-bamboo-new/" class="read-more swiper-btn-color" style="display: inline-block; z-index:1;">阅读文档</a></div>
+                    <div class="ani animated" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.3s" swiper-animate-delay="0.1s"><a target="_blank" rel="noopener" href="https://yuang01.gitee.io/2021/02/08/hexo-theme-bamboo-new/" class="read-more swiper-btn-color" style="display: inline-block; z-index:1;">阅读文档</a></div>
                   
                   
-                    <div class="ani animated" style="margin-left: 10px;" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.2s" swiper-animate-delay="0.1s"><a target="_blank" rel="noopener" href="https://gitee.com/yuang01/hexo-theme-bamboo/repository/archive/dev.zip" class="read-more swiper-btn-color2" style="display: inline-block; z-index:1;border: 1px solid white;">下载主题</a></div>
+                    <div class="ani animated" style="margin-left: 10px;" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.3s" swiper-animate-delay="0.1s"><a target="_blank" rel="noopener" href="https://gitee.com/yuang01/hexo-theme-bamboo/repository/archive/dev.zip" class="read-more swiper-btn-color2" style="display: inline-block; z-index:1;border: 1px solid white;">下载主题</a></div>
                   
                 </div>
               </div>
@@ -1256,6 +1401,8 @@
 		
 			
 		
+			
+		
 	</div>
 </div>
 
@@ -1272,17 +1419,17 @@
         <div class="post-info">
           <div class="post-time">
             <i class="fas fa-clock" aria-hidden="true"></i>
-            <span class="post-time">2022-05-30</span>
+            <span class="post-time">2022-06-02</span>
           </div>
           <div class="post-title">
-            <a class="post-title-link" href="/2022/05/30/test/">我的博客</a>
+            <a class="post-title-link" href="/2022/06/02/My-first-Hexo-blog-qwq/">My first Hexo blog, qwq</a>
           </div>
           <div class="post-meta">
             <div class="post-tags">
               <!-- 文章详情页的标签 -->
 
     <i class="iconfont icontag"></i>
-    <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/blog-test/" rel="tag">blog test</a></li></ul>
+    <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/test/" rel="tag">test</a></li></ul>
 
             </div>
             <div class="post-categories">
@@ -1290,37 +1437,34 @@
 
 <div class="article-category">
   <i class="iconfont iconbookmark1"></i>
-  <a class="article-category-link" href="/categories/blog/">blog</a>
+  <a class="article-category-link" href="/categories/hexo/">hexo</a>
 </div>
 
 
             </div>
           </div>
           <div class="post-img-mobile">
-            <a href="/2022/05/30/test/" style="background-size: cover; 
+            <a href="/2022/06/02/My-first-Hexo-blog-qwq/" style="background-size: cover; 
               background-position: center center;">
-              <img class="lazyload lazyload placeholder" src="/medias/12.jpg" class="lazyload placeholder" data-srcset="/medias/12.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
+              <img class="lazyload lazyload placeholder" src="/medias/13.jpg" class="lazyload placeholder" data-srcset="/medias/13.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
             </a>
           </div>
           <div class="post-content">
-            int main() &#123;
-    return 0;
-&#125;
-
-$$\Huge\color{Lime}\texttt{我的博客}$$
+            测试
+设设设
 
           </div>
         </div>
         <div class="post-more">
-          <a href="/2022/05/30/test/">
+          <a href="/2022/06/02/My-first-Hexo-blog-qwq/">
             <i class="iconfont iconmore" pointer style="float: right;  " title="阅读更多"></i>
           </a>
         </div>
       </div>
       <div class="post-img">
-        <a href="/2022/05/30/test/" style="background-size: cover; 
+        <a href="/2022/06/02/My-first-Hexo-blog-qwq/" style="background-size: cover; 
           background-position: center center;">
-          <img class="lazyload lazyload placeholder" src="/medias/12.jpg" class="lazyload placeholder" data-srcset="/medias/12.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
+          <img class="lazyload lazyload placeholder" src="/medias/13.jpg" class="lazyload placeholder" data-srcset="/medias/13.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
         </a>
       </div>
     </article>
@@ -1334,37 +1478,105 @@ $$\Huge\color{Lime}\texttt{我的博客}$$
             <span class="post-time">2022-05-30</span>
           </div>
           <div class="post-title">
-            <a class="post-title-link" href="/2022/05/30/hello-world/">Hello World</a>
+            <a class="post-title-link" href="/2022/05/30/test/">我的博客</a>
           </div>
           <div class="post-meta">
             <div class="post-tags">
               <!-- 文章详情页的标签 -->
 
+    <i class="iconfont icontag"></i>
+    <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/test/" rel="tag">test</a></li></ul>
+
             </div>
             <div class="post-categories">
               <!-- 文章详情页的分类 -->
+
+<div class="article-category">
+  <i class="iconfont iconbookmark1"></i>
+  <a class="article-category-link" href="/categories/hexo/">hexo</a>
+</div>
 
 
             </div>
           </div>
           <div class="post-img-mobile">
-            <a href="/2022/05/30/hello-world/" style="background-size: cover; 
+            <a href="/2022/05/30/test/" style="background-size: cover; 
               background-position: center center;">
-              <img class="lazyload lazyload placeholder" src="/medias/7.jpg" class="lazyload placeholder" data-srcset="/medias/7.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
+              <img class="lazyload lazyload placeholder" src="/medias/12.jpg" class="lazyload placeholder" data-srcset="/medias/12.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
             </a>
           </div>
           <div class="post-content">
-            Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex
+            int main() {
+    return 0;
+}
+我的博客
+
           </div>
         </div>
         <div class="post-more">
-          <a href="/2022/05/30/hello-world/">
+          <a href="/2022/05/30/test/">
             <i class="iconfont iconmore" pointer style="  " title="阅读更多"></i>
           </a>
         </div>
       </div>
       <div class="post-img">
-        <a href="/2022/05/30/hello-world/" style="background-size: cover; 
+        <a href="/2022/05/30/test/" style="background-size: cover; 
+          background-position: center center;">
+          <img class="lazyload lazyload placeholder" src="/medias/12.jpg" class="lazyload placeholder" data-srcset="/medias/12.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
+        </a>
+      </div>
+    </article>
+  
+    
+    <article class="post reveal" style="flex-direction: row-reverse;   ">
+      <div class="post-main">
+        <div class="post-info">
+          <div class="post-time">
+            <i class="fas fa-clock" aria-hidden="true"></i>
+            <span class="post-time">1926-08-17</span>
+          </div>
+          <div class="post-title">
+            <a class="post-title-link" href="/1926/08/17/hello-world/">Hello World</a>
+          </div>
+          <div class="post-meta">
+            <div class="post-tags">
+              <!-- 文章详情页的标签 -->
+
+    <i class="iconfont icontag"></i>
+    <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/test/" rel="tag">test</a></li></ul>
+
+            </div>
+            <div class="post-categories">
+              <!-- 文章详情页的分类 -->
+
+<div class="article-category">
+  <i class="iconfont iconbookmark1"></i>
+  <a class="article-category-link" href="/categories/hexo/">hexo</a>
+</div>
+
+
+            </div>
+          </div>
+          <div class="post-img-mobile">
+            <a href="/1926/08/17/hello-world/" style="background-size: cover; 
+              background-position: center center;">
+              <img class="lazyload lazyload placeholder" src="/medias/7.jpg" class="lazyload placeholder" data-srcset="/medias/7.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
+            </a>
+          </div>
+          <div class="post-content">
+            Welcome to Hexo! This is your very
+first post. Check documentation for
+more info. If you get any problems when using H
+          </div>
+        </div>
+        <div class="post-more">
+          <a href="/1926/08/17/hello-world/">
+            <i class="iconfont iconmore" pointer style="float: right;  " title="阅读更多"></i>
+          </a>
+        </div>
+      </div>
+      <div class="post-img">
+        <a href="/1926/08/17/hello-world/" style="background-size: cover; 
           background-position: center center;">
           <img class="lazyload lazyload placeholder" src="/medias/7.jpg" class="lazyload placeholder" data-srcset="/medias/7.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
         </a>
@@ -1396,11 +1608,11 @@ $$\Huge\color{Lime}\texttt{我的博客}$$
           <h2>青墨书晚风</h2>
         
         
-          <p>我是副标题</p>
+          <p>欢迎来到A_box_of_yogurt的blog</p>
 
         
         
-          <p><span id="jinrishici-sentence">Hexo</span></p>
+          <p><span id="jinrishici-sentence">Welcome to A_box_of_yogurt's blog</span></p>
           <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
         
       </div>
@@ -1471,9 +1683,9 @@ $$\Huge\color{Lime}\texttt{我的博客}$$
         <ul class="entry navigation">
           
             <li><a class="flat-box"
-              title="/categories/blog/" href="/categories/blog/"
-              id="categoriesblog"
-              ><div class='name'>blog</div><div class='badge'>(1)</div></a></li>
+              title="/categories/hexo/" href="/categories/hexo/"
+              id="categorieshexo"
+              ><div class='name'>hexo</div><div class='badge'>(3)</div></a></li>
           
         </ul>
       </div>
@@ -1493,7 +1705,7 @@ $$\Huge\color{Lime}\texttt{我的博客}$$
 
 
     <div class='content'>
-    <a href="/tags/blog-test/" style="font-size: 14px; color: #999">blog test</a>
+    <a href="/tags/test/" style="font-size: 14px; color: #999">test</a>
     </div>
 </section>
 
@@ -1514,6 +1726,27 @@ $$\Huge\color{Lime}\texttt{我的博客}$$
       <!-- hash算法 -->
       
       <div class="aside-list">
+        
+          <div class="aside-list-item">
+            
+            
+            
+
+            <div class="post-img-box">
+              <a href="/2022/06/02/My-first-Hexo-blog-qwq/" class="post-img " style="background-size: cover; 
+                background-position: center center;">
+                <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="/medias/13.jpg" class="lazyload placeholder" data-srcset="/medias/13.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
+              </a>
+            </div>
+            <div class="post-date-title">
+              <div>
+                
+                  <span class="post-date">06-02</span>
+                
+              </div>
+              <a class="post-title" href="/2022/06/02/My-first-Hexo-blog-qwq/">My first Hexo blog, qwq</a>
+            </div>
+          </div>
         
           <div class="aside-list-item">
             
@@ -1542,7 +1775,7 @@ $$\Huge\color{Lime}\texttt{我的博客}$$
             
 
             <div class="post-img-box">
-              <a href="/2022/05/30/hello-world/" class="post-img " style="background-size: cover; 
+              <a href="/1926/08/17/hello-world/" class="post-img " style="background-size: cover; 
                 background-position: center center;">
                 <img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover;" data-src="/medias/7.jpg" class="lazyload placeholder" data-srcset="/medias/7.jpg" srcset="https://img2.baidu.com/it/u=2037979560,2772131037&fm=26&fmt=auto&gp=0.jpg" alt="">
               </a>
@@ -1550,10 +1783,10 @@ $$\Huge\color{Lime}\texttt{我的博客}$$
             <div class="post-date-title">
               <div>
                 
-                  <span class="post-date">05-30</span>
+                  <span class="post-date">08-17</span>
                 
               </div>
-              <a class="post-title" href="/2022/05/30/hello-world/">Hello World</a>
+              <a class="post-title" href="/1926/08/17/hello-world/">Hello World</a>
             </div>
           </div>
         
@@ -1564,7 +1797,7 @@ $$\Huge\color{Lime}\texttt{我的博客}$$
     
   <section class="widget side_archives">
     
-    <header><a style="color: red" href='/archives/'><i class="fas fa-archive fa-fw" aria-hidden="true"></i><span class='name'>归档</span></a></header><div class="content"><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/05/"><span class="card-archive-list-date">五月 2022</span><span class="card-archive-list-count">2</span></a></li></ul></div>
+    <header><a style="color: red" href='/archives/'><i class="fas fa-archive fa-fw" aria-hidden="true"></i><span class='name'>归档</span></a></header><div class="content"><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/06/"><span class="card-archive-list-date">六月 2022</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/05/"><span class="card-archive-list-date">五月 2022</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/1926/08/"><span class="card-archive-list-date">八月 1926</span><span class="card-archive-list-count">1</span></a></li></ul></div>
   </section>
 
     <section class="widget side_webinfo">
@@ -1581,21 +1814,21 @@ $$\Huge\color{Lime}\texttt{我的博客}$$
       
         <div class="webinfo-item">
           <div>文章数目：</div>
-          <div>2 篇</div>
+          <div>3 篇</div>
         </div>
       
 
       
         <div class="webinfo-item">
-          <div>已运行时间：</div>
+          <div>这个蒟蒻的blog已经创建了</div>
           <div id="webinfo-runtime-count" publish_date="03/24/2020 21:34:09"></div>
         </div>
         <script>
-          var BirthDay = new Date(new Date('2020/01/01'));
+          var BirthDay = new Date(new Date('2022/05/30'));
           var today = new Date();
           var timeold = (today.getTime() - BirthDay.getTime());
           var daysold = Math.floor(timeold / (24 * 60 * 60 * 1000));
-          document.getElementById('webinfo-runtime-count').innerHTML = daysold + ' 天';
+          document.getElementById('webinfo-runtime-count').innerHTML = daysold + ' 天呢qwq';
         </script>
       
 
@@ -1624,8 +1857,8 @@ $$\Huge\color{Lime}\texttt{我的博客}$$
         <div class="webinfo-item">
           <div>最后活动时间：</div>
           
-            <div id="last-update" style="display: none;">Mon May 30 2022 23:13:12 GMT+0800 (中国标准时间)</div>
-            <div id="last-update-show">2022-05-30 日</div>
+            <div id="last-update" style="display: none;">Thu Jun 02 2022 23:10:52 GMT+0800 (中国标准时间)</div>
+            <div id="last-update-show">2022-06-02 日</div>
           
         </div>
         
@@ -1675,7 +1908,7 @@ $$\Huge\color{Lime}\texttt{我的博客}$$
           try {
             document.getElementById('last-update-show').innerHTML = timeago(new Date(lastUpDate));
           } catch (error) {
-            document.getElementById('last-update-show').innerHTML = '2022-05-30 日';
+            document.getElementById('last-update-show').innerHTML = '2022-06-02 日';
           }
         </script>
         
@@ -1880,7 +2113,10 @@ $$\Huge\color{Lime}\texttt{我的博客}$$
       
         
           <div class="footer-copyright">
-            <p>Copyright © 2019 - 2020 <a target="_blank" rel="noopener" href="https://github.com/yuang01">yuang01</a> | Powered by <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">Hexo</a> | Theme <a target="_blank" rel="noopener" href="https://github.com/yuang01/theme">Bamboo</a> </p>
+            <p>Copyright © 2019 - 2020
+<a target="_blank" rel="noopener" href="https://github.com/yuang01">yuang01</a> | Powered by
+<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">Hexo</a> | Theme
+<a target="_blank" rel="noopener" href="https://github.com/yuang01/theme">Bamboo</a></p>
 
           </div>
         
@@ -2001,7 +2237,7 @@ $$\Huge\color{Lime}\texttt{我的博客}$$
   type="playlist"
   id="8062553743"
   fixed='true'
-  autoplay='false'
+  autoplay='true'
   theme='#42b983'
   loop='all'
   order='random'
