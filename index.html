@@ -20,7 +20,7 @@
   
   
     <script>
-        var themeModelId = '0';
+        var themeModelId = '1';
         if (themeModelId) {
             localStorage.setItem('modelId', themeModelId);
         }
@@ -398,8 +398,63 @@ mjx-container[display="true"] + br {
               
                 <a href="/friends" class="drawer-menu-item-link">
                   
+                    <i class="fa-film" aria-hidden="true"></i>
+                  
                   <span class="name">友情链接</span>
                 </a>
+              
+            </li>
+          
+            <li class="drawer-box-content_item" style="position: relative;">
+              
+                <a href="javascript:;" class="drawer-menu-item-link has-children" @click="openOrCloseMenu(5)">
+                  <span>
+                    
+                      <i class="fas fa-link"></i>
+                    
+                    <span class="name">更多</span>
+                  </span>
+                  <i class="fas fa-chevron-left arrow " :class="{'icon-rotate': isOpen(5)}" aria-hidden="true"></i>
+                </a>
+                <ul class="drawer-sub-menu" v-if="isOpen(5)">
+                  
+                  <li>
+                    <a href="/gallery">
+                      
+                      <i class="fas fa-music" style="margin-top: -20px;"></i>
+                      
+                      <span>图库</span>
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/huoban">
+                      
+                      <i class="fas fa-film" style="margin-top: -20px;"></i>
+                      
+                      <span>友情连接</span>
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/me">
+                      
+                      <i class="fas fa-film" style="margin-top: -20px;"></i>
+                      
+                      <span>关于我</span>
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a target="_blank" rel="noopener" href="http://baidu.com">
+                      
+                      <i class="fas fa-film" style="margin-top: -20px;"></i>
+                      
+                      <span>百度</span>
+                    </a>
+                  </li>
+                  
+                </ul>
               
             </li>
           
@@ -523,8 +578,61 @@ mjx-container[display="true"] + br {
               
                 <a href="/friends" class="menu-item-link" title="友情链接">
                   
+                    <i class="fa-film" aria-hidden="true"></i>
+                  
                   <span class="name">友情链接</span>
                 </a>
+              
+            </li>
+          
+            <li class="menu-item" style="position: relative;">
+              
+                <a href="javascript:;" class="menu-item-link" title="更多">
+                  
+                    <i class="fas fa-link"></i>
+                  
+                  <span class="name">更多</span>
+                  <i class="fas fa-chevron-down arrow" aria-hidden="true"></i>
+                </a>
+                <ul class="sub-menu">
+                  
+                  <li>
+                    <a href="/gallery">
+                      
+                      <i class="fas fa-music" style="margin-top: -20px;"></i>
+                      
+                      <span>图库</span>
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/huoban">
+                      
+                      <i class="fas fa-film" style="margin-top: -20px;"></i>
+                      
+                      <span>友情连接</span>
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a href="/me">
+                      
+                      <i class="fas fa-film" style="margin-top: -20px;"></i>
+                      
+                      <span>关于我</span>
+                    </a>
+                  </li>
+                  
+                  <li>
+                    <a target="_blank" rel="noopener" href="http://baidu.com">
+                      
+                      <i class="fas fa-film" style="margin-top: -20px;"></i>
+                      
+                      <span>百度</span>
+                    </a>
+                  </li>
+                  
+                </ul>
               
             </li>
           
@@ -1621,16 +1729,7 @@ more info. If you get any problems when using H
       <div class="social-wrapper">
         
           
-            <a href="/atom.xml"
-              class="social fas fa-rss flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="mailto:me@xxx.com"
+            <a href="/3218368236@qq.com"
               class="social fas fa-envelope flat-btn"
               target="_blank"
               rel="external nofollow noopener noreferrer">
@@ -1639,7 +1738,7 @@ more info. If you get any problems when using H
           
         
           
-            <a href="https://github.com/yuang01/hexo-theme-bamboo"
+            <a href="https://github.com/A-box-of-yogurt"
               class="social fab fa-github flat-btn"
               target="_blank"
               rel="external nofollow noopener noreferrer">
@@ -1648,7 +1747,7 @@ more info. If you get any problems when using H
           
         
           
-            <a href="tencent://AddContact/?fromId=50&amp;fromSubId=1&amp;subcmd=all&amp;uin=你的qq号码"
+            <a href="tencent://AddContact/?fromId=50&amp;fromSubId=1&amp;subcmd=all&amp;uin=3218368236"
               class="social fab fa-qq flat-btn"
               target="_blank"
               rel="external nofollow noopener noreferrer">
@@ -1857,7 +1956,7 @@ more info. If you get any problems when using H
         <div class="webinfo-item">
           <div>最后活动时间：</div>
           
-            <div id="last-update" style="display: none;">Thu Jun 02 2022 23:10:52 GMT+0800 (中国标准时间)</div>
+            <div id="last-update" style="display: none;">Thu Jun 02 2022 23:31:24 GMT+0800 (中国标准时间)</div>
             <div id="last-update-show">2022-06-02 日</div>
           
         </div>
